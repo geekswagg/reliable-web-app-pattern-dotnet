@@ -1,15 +1,15 @@
 ﻿using Microsoft.ApplicationInsights;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Relecloud.Web.CallCenter.Infrastructure;
-using Relecloud.Web.CallCenter.Services;
-using Relecloud.Web.CallCenter.ViewModels;
-using Relecloud.Web.Models.ConcertContext;
-using Relecloud.Web.Models.Services;
-using Relecloud.Web.Models.TicketManagement;
-using Relecloud.Web.Models.TicketManagement.Payment;
+using ForgeFusion.Web.Infrastructure;
+using ForgeFusion.Web.Services;
+using ForgeFusion.Web.ViewModels;
+using ForgeFusion.Web.Models.ConcertContext;
+using ForgeFusion.Web.Models.Services;
+using ForgeFusion.Web.Models.TicketManagement;
+using ForgeFusion.Web.Models.TicketManagement.Payment;
 
-namespace Relecloud.Web.CallCenter.Controllers
+namespace ForgeFusion.Web.Controllers
 {
     public class CartController : Controller
     {

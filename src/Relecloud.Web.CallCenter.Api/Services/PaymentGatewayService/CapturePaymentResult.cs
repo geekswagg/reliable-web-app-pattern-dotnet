@@ -1,6 +1,6 @@
-﻿using Relecloud.Web.Models.Services;
+﻿using ForgeFusion.Web.Models.Services;
 
-namespace Relecloud.Web.Api.Services.PaymentGatewayService
+namespace ForgeFusion.Web.Api.Services.PaymentGatewayService
 {
     public class CapturePaymentResult : IServiceProviderResult
     {

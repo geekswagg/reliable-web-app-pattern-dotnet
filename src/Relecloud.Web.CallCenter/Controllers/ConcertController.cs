@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Relecloud.Web.CallCenter.Infrastructure;
-using Relecloud.Web.CallCenter.ViewModels;
-using Relecloud.Web.Models.ConcertContext;
-using Relecloud.Web.Models.Search;
-using Relecloud.Web.Models.Services;
+using ForgeFusion.Web.Infrastructure;
+using ForgeFusion.Web.ViewModels;
+using ForgeFusion.Web.Models.ConcertContext;
+using ForgeFusion.Web.Models.Search;
+using ForgeFusion.Web.Models.Services;
 
-namespace Relecloud.Web.CallCenter.Controllers
+namespace ForgeFusion.Web.Controllers
 {
     public class ConcertController : Controller
     {

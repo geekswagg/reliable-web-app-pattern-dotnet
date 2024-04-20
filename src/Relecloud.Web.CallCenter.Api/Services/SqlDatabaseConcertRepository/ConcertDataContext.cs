@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Relecloud.Web.Models.ConcertContext;
+using ForgeFusion.Web.Models.ConcertContext;
 
-namespace Relecloud.Web.Api.Services.SqlDatabaseConcertRepository
+namespace ForgeFusion.Web.Api.Services.SqlDatabaseConcertRepository
 {
     public class ConcertDataContext : DbContext
     {

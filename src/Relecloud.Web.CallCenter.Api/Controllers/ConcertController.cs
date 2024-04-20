@@ -1,15 +1,15 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Relecloud.Web.Api.Infrastructure;
-using Relecloud.Web.Api.Services;
-using Relecloud.Web.Api.Services.TicketManagementService;
-using Relecloud.Web.Models.ConcertContext;
-using Relecloud.Web.Models.Services;
+using ForgeFusion.Web.Api.Infrastructure;
+using ForgeFusion.Web.Api.Services;
+using ForgeFusion.Web.Api.Services.TicketManagementService;
+using ForgeFusion.Web.Models.ConcertContext;
+using ForgeFusion.Web.Models.Services;
 using System.Net;
 using System.Net.Mime;
 using System.Text.Json;
 
-namespace Relecloud.Web.Api.Controllers
+namespace ForgeFusion.Web.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

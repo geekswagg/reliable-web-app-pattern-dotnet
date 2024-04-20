@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Relecloud.Web.CallCenter.Controllers
+namespace ForgeFusion.Web.Controllers
 {
     public class HomeController : Controller
     {

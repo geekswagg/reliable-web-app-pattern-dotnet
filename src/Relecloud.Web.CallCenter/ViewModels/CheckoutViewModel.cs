@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
-using Relecloud.Web.Models.TicketManagement.Payment;
+using ForgeFusion.Web.Models.TicketManagement.Payment;
 using System.ComponentModel.DataAnnotations;
 
-namespace Relecloud.Web.CallCenter.ViewModels
+namespace ForgeFusion.Web.ViewModels
 {
     public class CheckoutViewModel
     {

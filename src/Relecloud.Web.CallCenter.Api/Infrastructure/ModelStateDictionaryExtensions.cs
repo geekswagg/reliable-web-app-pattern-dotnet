@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace Relecloud.Web.Api.Infrastructure
+namespace ForgeFusion.Web.Api.Infrastructure
 {
     public static class ModelStateDictionaryExtensions
     {

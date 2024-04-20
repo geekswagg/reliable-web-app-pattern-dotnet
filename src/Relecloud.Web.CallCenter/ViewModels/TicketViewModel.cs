@@ -1,6 +1,6 @@
-﻿using Relecloud.Web.Models.ConcertContext;
+﻿using ForgeFusion.Web.Models.ConcertContext;
 
-namespace Relecloud.Web.CallCenter.ViewModels
+namespace ForgeFusion.Web.ViewModels
 {
     public class TicketViewModel
     {

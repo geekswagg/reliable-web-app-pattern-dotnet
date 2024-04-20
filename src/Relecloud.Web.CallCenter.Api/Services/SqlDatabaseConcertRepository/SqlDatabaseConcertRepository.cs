@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Distributed;
-using Relecloud.Web.Api.Infrastructure;
-using Relecloud.Web.Models.ConcertContext;
+using ForgeFusion.Web.Api.Infrastructure;
+using ForgeFusion.Web.Models.ConcertContext;
 using System.Text.Json;
 
-namespace Relecloud.Web.Api.Services.SqlDatabaseConcertRepository
+namespace ForgeFusion.Web.Api.Services.SqlDatabaseConcertRepository
 {
     public class SqlDatabaseConcertRepository : IConcertRepository, IDisposable
     {

@@ -1,6 +1,6 @@
-﻿using Relecloud.Web.Models.TicketManagement;
+﻿using ForgeFusion.Web.Models.TicketManagement;
 
-namespace Relecloud.Web.CallCenter.Services.MockServices
+namespace ForgeFusion.Web.Services.MockServices
 {
     public class MockTicketPurchaseService : ITicketPurchaseService
     {

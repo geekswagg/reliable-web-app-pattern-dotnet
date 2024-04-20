@@ -1,4 +1,4 @@
-﻿namespace Relecloud.Web.CallCenter.Infrastructure
+﻿namespace ForgeFusion.Web.Infrastructure
 {
     public static class CacheKeys
     {

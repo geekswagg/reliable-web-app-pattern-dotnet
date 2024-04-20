@@ -1,14 +1,14 @@
 ﻿using Microsoft.Extensions.Options;
 using Microsoft.Identity.Web;
-using Relecloud.Web.CallCenter.Infrastructure;
-using Relecloud.Web.CallCenter.Services.RelecloudApiServices;
-using Relecloud.Web.Models.ConcertContext;
-using Relecloud.Web.Models.Services;
+using ForgeFusion.Web.Infrastructure;
+using ForgeFusion.Web.Services.RelecloudApiServices;
+using ForgeFusion.Web.Models.ConcertContext;
+using ForgeFusion.Web.Models.Services;
 using System.Net;
 using System.Net.Http.Headers;
 using System.Text.Json;
 
-namespace Relecloud.Web.CallCenter.Services.ApiConcertService
+namespace ForgeFusion.Web.Services.ApiConcertService
 {
     public class RelecloudApiConcertService : IConcertContextService
     {

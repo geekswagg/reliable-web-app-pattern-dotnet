@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-using Relecloud.Web.CallCenter.Services;
+using ForgeFusion.Web.Services;
 
-namespace Relecloud.Web.CallCenter.Controllers;
+namespace ForgeFusion.Web.Controllers;
 
 [Route("webapi/[controller]")]
 [ApiController]

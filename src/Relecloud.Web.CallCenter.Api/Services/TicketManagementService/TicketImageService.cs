@@ -3,7 +3,7 @@
 
 using Azure.Storage.Blobs;
 
-namespace Relecloud.Web.Api.Services.TicketManagementService
+namespace ForgeFusion.Web.Api.Services.TicketManagementService
 {
     public class TicketImageService : ITicketImageService
     {

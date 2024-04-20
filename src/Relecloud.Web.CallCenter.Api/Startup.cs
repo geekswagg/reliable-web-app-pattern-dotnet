@@ -7,17 +7,17 @@ using Azure.Storage.Blobs;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Web;
 using Microsoft.IdentityModel.Logging;
-using Relecloud.Web.Models.Services;
-using Relecloud.Web.Api.Infrastructure;
-using Relecloud.Web.Api.Services;
-using Relecloud.Web.Api.Services.MockServices;
-using Relecloud.Web.Api.Services.Search;
-using Relecloud.Web.Api.Services.SqlDatabaseConcertRepository;
-using Relecloud.Web.Api.Services.TicketManagementService;
+using ForgeFusion.Web.Models.Services;
+using ForgeFusion.Web.Api.Infrastructure;
+using ForgeFusion.Web.Api.Services;
+using ForgeFusion.Web.Api.Services.MockServices;
+using ForgeFusion.Web.Api.Services.Search;
+using ForgeFusion.Web.Api.Services.SqlDatabaseConcertRepository;
+using ForgeFusion.Web.Api.Services.TicketManagementService;
 using Relecloud.Web.Services.Search;
 using System.Diagnostics;
 
-namespace Relecloud.Web.Api
+namespace ForgeFusion.Web.Api
 {
     public class Startup
     {

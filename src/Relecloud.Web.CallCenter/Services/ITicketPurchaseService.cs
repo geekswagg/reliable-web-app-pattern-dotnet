@@ -1,6 +1,6 @@
-﻿using Relecloud.Web.Models.TicketManagement;
+﻿using ForgeFusion.Web.Models.TicketManagement;
 
-namespace Relecloud.Web.CallCenter.Services
+namespace ForgeFusion.Web.Services
 {
     public interface ITicketPurchaseService
     {

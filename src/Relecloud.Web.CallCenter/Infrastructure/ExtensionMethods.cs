@@ -4,12 +4,12 @@
 using Microsoft.AspNetCore.Html;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Relecloud.Web.Models.ConcertContext;
-using Relecloud.Web.Models.Search;
+using ForgeFusion.Web.Models.ConcertContext;
+using ForgeFusion.Web.Models.Search;
 using System.Security.Claims;
 using System.Text.Json;
 
-namespace Relecloud.Web.CallCenter.Infrastructure
+namespace ForgeFusion.Web.Infrastructure
 {
     public static class ExtensionMethods
     {

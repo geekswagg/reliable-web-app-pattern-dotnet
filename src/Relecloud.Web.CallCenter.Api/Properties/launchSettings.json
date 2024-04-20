@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "Relecloud.Web.Api": {
+    "ForgeFusion.Web.Api": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

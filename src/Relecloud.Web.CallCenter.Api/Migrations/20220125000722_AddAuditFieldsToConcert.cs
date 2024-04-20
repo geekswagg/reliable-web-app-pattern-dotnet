@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Relecloud.Web.Api.Migrations
+namespace ForgeFusion.Web.Api.Migrations
 {
     public partial class AddAuditFieldsToConcert : Migration
     {

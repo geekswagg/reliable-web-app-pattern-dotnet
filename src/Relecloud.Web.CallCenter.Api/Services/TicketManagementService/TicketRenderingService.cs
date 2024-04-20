@@ -3,14 +3,14 @@ using Azure.Storage.Blobs;
 
 using Microsoft.EntityFrameworkCore;
 
-using Relecloud.Web.Api.Services.SqlDatabaseConcertRepository;
-using Relecloud.Web.Models.ConcertContext;
+using ForgeFusion.Web.Api.Services.SqlDatabaseConcertRepository;
+using ForgeFusion.Web.Models.ConcertContext;
 
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
 
-namespace Relecloud.Web.Api.Services.TicketManagementService
+namespace ForgeFusion.Web.Api.Services.TicketManagementService
 {
      public class TicketRenderingService : ITicketRenderingService
     {

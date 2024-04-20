@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Relecloud.Web.Api.Services.SqlDatabaseConcertRepository;
+using ForgeFusion.Web.Api.Services.SqlDatabaseConcertRepository;
 
 #nullable disable
 
-namespace Relecloud.Web.Api.Migrations
+namespace ForgeFusion.Web.Api.Migrations
 {
     [DbContext(typeof(ConcertDataContext))]
     [Migration("20220208203826_CreateTicketNumbers")]
@@ -24,7 +24,7 @@ namespace Relecloud.Web.Api.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("Relecloud.Web.Models.ConcertContext.Concert", b =>
+            modelBuilder.Entity("ForgeFusion.Web.Models.ConcertContext.Concert", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -80,7 +80,7 @@ namespace Relecloud.Web.Api.Migrations
                     b.ToTable("Concerts");
                 });
 
-            modelBuilder.Entity("Relecloud.Web.Models.ConcertContext.Ticket", b =>
+            modelBuilder.Entity("ForgeFusion.Web.Models.ConcertContext.Ticket", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -108,7 +108,7 @@ namespace Relecloud.Web.Api.Migrations
                     b.ToTable("Tickets");
                 });
 
-            modelBuilder.Entity("Relecloud.Web.Models.ConcertContext.TicketNumber", b =>
+            modelBuilder.Entity("ForgeFusion.Web.Models.ConcertContext.TicketNumber", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -134,7 +134,7 @@ namespace Relecloud.Web.Api.Migrations
                     b.ToTable("TicketNumbers");
                 });
 
-            modelBuilder.Entity("Relecloud.Web.Models.ConcertContext.User", b =>
+            modelBuilder.Entity("ForgeFusion.Web.Models.ConcertContext.User", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -148,15 +148,15 @@ namespace Relecloud.Web.Api.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("Relecloud.Web.Models.ConcertContext.Ticket", b =>
+            modelBuilder.Entity("ForgeFusion.Web.Models.ConcertContext.Ticket", b =>
                 {
-                    b.HasOne("Relecloud.Web.Models.ConcertContext.Concert", "Concert")
+                    b.HasOne("ForgeFusion.Web.Models.ConcertContext.Concert", "Concert")
                         .WithMany()
                         .HasForeignKey("ConcertId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Relecloud.Web.Models.ConcertContext.User", "User")
+                    b.HasOne("ForgeFusion.Web.Models.ConcertContext.User", "User")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)

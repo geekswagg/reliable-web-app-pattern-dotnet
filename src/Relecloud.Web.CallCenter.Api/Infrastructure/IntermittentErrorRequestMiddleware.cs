@@ -1,4 +1,4 @@
-﻿namespace Relecloud.Web.Api.Infrastructure;
+﻿namespace ForgeFusion.Web.Api.Infrastructure;
 
 using System.Net;
 

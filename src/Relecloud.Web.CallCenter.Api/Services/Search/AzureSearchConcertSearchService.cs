@@ -2,9 +2,9 @@
 using Azure.Search.Documents;
 using Azure.Search.Documents.Models;
 using NuGet.Packaging;
-using Relecloud.Web.Models.ConcertContext;
-using Relecloud.Web.Models.Search;
-using Relecloud.Web.Models.Services;
+using ForgeFusion.Web.Models.ConcertContext;
+using ForgeFusion.Web.Models.Search;
+using ForgeFusion.Web.Models.Services;
 
 namespace Relecloud.Web.Services.Search
 {

@@ -1,6 +1,6 @@
-﻿using Relecloud.Web.Api.Services;
+﻿using ForgeFusion.Web.Api.Services;
 
-namespace Relecloud.Web.Api.Infrastructure
+namespace ForgeFusion.Web.Api.Infrastructure
 {
     public class ApplicationInitializer
     {

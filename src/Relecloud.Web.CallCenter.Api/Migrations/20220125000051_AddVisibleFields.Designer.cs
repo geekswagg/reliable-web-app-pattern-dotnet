@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Relecloud.Web.Api.Services.SqlDatabaseConcertRepository;
+using ForgeFusion.Web.Api.Services.SqlDatabaseConcertRepository;
 
 #nullable disable
 
-namespace Relecloud.Web.Api.Migrations
+namespace ForgeFusion.Web.Api.Migrations
 {
     [DbContext(typeof(ConcertDataContext))]
     [Migration("20220125000051_AddVisibleFields")]
@@ -24,7 +24,7 @@ namespace Relecloud.Web.Api.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("Relecloud.Web.Models.Concert", b =>
+            modelBuilder.Entity("ForgeFusion.Web.Models.Concert", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

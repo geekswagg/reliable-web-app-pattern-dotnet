@@ -1,4 +1,4 @@
-namespace Relecloud.Web.CallCenter.Services.MockServices;
+namespace ForgeFusion.Web.Services.MockServices;
 
 public class MockTicketImageService : ITicketImageService
 {

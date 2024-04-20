@@ -1,7 +1,7 @@
-﻿using Relecloud.Web.Api.Services.TicketManagementService;
-using Relecloud.Web.Models.TicketManagement;
+﻿using ForgeFusion.Web.Api.Services.TicketManagementService;
+using ForgeFusion.Web.Models.TicketManagement;
 
-namespace Relecloud.Web.Api.Services.MockServices
+namespace ForgeFusion.Web.Api.Services.MockServices
 {
     public class MockTicketManagementService : ITicketManagementService
     {

@@ -11,13 +11,13 @@ using Microsoft.Net.Http.Headers;
 using Polly;
 using Polly.Contrib.WaitAndRetry;
 using Polly.Extensions.Http;
-using Relecloud.Web.Models.ConcertContext;
-using Relecloud.Web.Models.Services;
-using Relecloud.Web.CallCenter.Infrastructure;
-using Relecloud.Web.CallCenter.Services;
-using Relecloud.Web.CallCenter.Services.ApiConcertService;
-using Relecloud.Web.CallCenter.Services.MockServices;
-using Relecloud.Web.CallCenter.Services.RelecloudApiServices;
+using ForgeFusion.Web.Models.ConcertContext;
+using ForgeFusion.Web.Models.Services;
+using ForgeFusion.Web.Infrastructure;
+using ForgeFusion.Web.Services;
+using ForgeFusion.Web.Services.ApiConcertService;
+using ForgeFusion.Web.Services.MockServices;
+using ForgeFusion.Web.Services.RelecloudApiServices;
 using System.Diagnostics;
 
 namespace Relecloud.Web
@@ -80,7 +80,7 @@ namespace Relecloud.Web
                 {
                     httpClient.BaseAddress = new Uri(baseUri);
                     httpClient.DefaultRequestHeaders.Add(HeaderNames.Accept, "application/json");
-                    httpClient.DefaultRequestHeaders.Add(HeaderNames.UserAgent, "Relecloud.Web.CallCenter");
+                    httpClient.DefaultRequestHeaders.Add(HeaderNames.UserAgent, "ForgeFusion.Web");
                 })
                 .AddPolicyHandler(GetRetryPolicy())
                 .AddPolicyHandler(GetCircuitBreakerPolicy());
@@ -100,7 +100,7 @@ namespace Relecloud.Web
                 {
                     httpClient.BaseAddress = new Uri(baseUri);
                     httpClient.DefaultRequestHeaders.Add(HeaderNames.Accept, "application/json");
-                    httpClient.DefaultRequestHeaders.Add(HeaderNames.UserAgent, "Relecloud.Web.CallCenter");
+                    httpClient.DefaultRequestHeaders.Add(HeaderNames.UserAgent, "ForgeFusion.Web");
                 })
                 .AddPolicyHandler(GetRetryPolicy())
                 .AddPolicyHandler(GetCircuitBreakerPolicy());
@@ -120,7 +120,7 @@ namespace Relecloud.Web
                 {
                     httpClient.BaseAddress = new Uri(baseUri);
                     httpClient.DefaultRequestHeaders.Add(HeaderNames.Accept, "application/octet-stream");
-                    httpClient.DefaultRequestHeaders.Add(HeaderNames.UserAgent, "Relecloud.Web.CallCenter");
+                    httpClient.DefaultRequestHeaders.Add(HeaderNames.UserAgent, "ForgeFusion.Web");
                 })
                 .AddPolicyHandler(GetRetryPolicy())
                 .AddPolicyHandler(GetCircuitBreakerPolicy());

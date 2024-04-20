@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace Relecloud.Web.CallCenter.Infrastructure
+namespace ForgeFusion.Web.Infrastructure
 {
     public class RelecloudApiConfiguration
     {

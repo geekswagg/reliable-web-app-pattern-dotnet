@@ -3,7 +3,7 @@ using Microsoft.Identity.Web;
 
 using System.Net.Http.Headers;
 
-namespace Relecloud.Web.CallCenter.Services.RelecloudApiServices;
+namespace ForgeFusion.Web.Services.RelecloudApiServices;
 
 public class RelecloudApiTicketImageService : ITicketImageService
 {

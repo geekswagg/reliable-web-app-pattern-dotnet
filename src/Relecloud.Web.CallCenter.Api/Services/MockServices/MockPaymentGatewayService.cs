@@ -1,7 +1,7 @@
-﻿using Relecloud.Web.Api.Services.PaymentGatewayService;
-using Relecloud.Web.Models.Services;
+﻿using ForgeFusion.Web.Api.Services.PaymentGatewayService;
+using ForgeFusion.Web.Models.Services;
 
-namespace Relecloud.Web.Api.Services.MockServices
+namespace ForgeFusion.Web.Api.Services.MockServices
 {
     public class MockPaymentGatewayService : IPaymentGatewayService
     {

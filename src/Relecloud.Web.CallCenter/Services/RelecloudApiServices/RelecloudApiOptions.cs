@@ -1,4 +1,4 @@
-﻿namespace Relecloud.Web.CallCenter.Services.RelecloudApiServices
+﻿namespace ForgeFusion.Web.Services.RelecloudApiServices
 {
     public class RelecloudApiOptions
     {

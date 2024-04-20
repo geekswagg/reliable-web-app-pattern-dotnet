@@ -1,6 +1,6 @@
-﻿using Relecloud.Web.Models.TicketManagement.Payment;
+﻿using ForgeFusion.Web.Models.TicketManagement.Payment;
 
-namespace Relecloud.Web.Api.Services.PaymentGatewayService
+namespace ForgeFusion.Web.Api.Services.PaymentGatewayService
 {
     public class PreAuthPaymentRequest
     {

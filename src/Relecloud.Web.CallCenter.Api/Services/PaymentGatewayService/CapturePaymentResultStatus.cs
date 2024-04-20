@@ -1,4 +1,4 @@
-﻿namespace Relecloud.Web.Api.Services.PaymentGatewayService
+﻿namespace ForgeFusion.Web.Api.Services.PaymentGatewayService
 {
     public enum CapturePaymentResultStatus
     {

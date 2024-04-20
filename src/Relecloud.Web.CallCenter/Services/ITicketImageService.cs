@@ -1,4 +1,4 @@
-﻿namespace Relecloud.Web.CallCenter.Services;
+﻿namespace ForgeFusion.Web.Services;
 
 public interface ITicketImageService
 {

@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Relecloud.Web.Api.Services.SqlDatabaseConcertRepository;
-using Relecloud.Web.Models.ConcertContext;
-using Relecloud.Web.Models.TicketManagement;
+using ForgeFusion.Web.Api.Services.SqlDatabaseConcertRepository;
+using ForgeFusion.Web.Models.ConcertContext;
+using ForgeFusion.Web.Models.TicketManagement;
 
-namespace Relecloud.Web.Api.Services.TicketManagementService
+namespace ForgeFusion.Web.Api.Services.TicketManagementService
 {
     public class TicketManagementService : ITicketManagementService
     {

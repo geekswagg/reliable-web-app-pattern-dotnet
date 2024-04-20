@@ -1,10 +1,10 @@
-﻿using Relecloud.Web.CallCenter.Infrastructure;
-using Relecloud.Web.Models.Search;
-using Relecloud.Web.Models.Services;
+﻿using ForgeFusion.Web.Infrastructure;
+using ForgeFusion.Web.Models.Search;
+using ForgeFusion.Web.Models.Services;
 using System.Net;
 using System.Text.Json;
 
-namespace Relecloud.Web.CallCenter.Services.RelecloudApiServices
+namespace ForgeFusion.Web.Services.RelecloudApiServices
 {
     public class RelecloudApiConcertSearchService : IConcertSearchService
     {

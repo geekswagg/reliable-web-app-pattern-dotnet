@@ -1,7 +1,7 @@
-﻿using Relecloud.Web.Models.Search;
-using Relecloud.Web.Models.Services;
+﻿using ForgeFusion.Web.Models.Search;
+using ForgeFusion.Web.Models.Services;
 
-namespace Relecloud.Web.CallCenter.Services.MockServices
+namespace ForgeFusion.Web.Services.MockServices
 {
     public class MockConcertSearchService : IConcertSearchService
     {

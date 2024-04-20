@@ -1,6 +1,6 @@
-﻿using Relecloud.Web.Api.Services.PaymentGatewayService;
+﻿using ForgeFusion.Web.Api.Services.PaymentGatewayService;
 
-namespace Relecloud.Web.Models.Services
+namespace ForgeFusion.Web.Models.Services
 {
     public interface IPaymentGatewayService
     {
