@@ -1,4 +1,5 @@
-﻿using ForgeFusion.Web.Models.ConcertContext;
+﻿using ForgeFusion.Web.Models.Entities.Account;
+using ForgeFusion.Web.Models.Entities.Ticketing;
 
 namespace ForgeFusion.Web.Models.Services
 {

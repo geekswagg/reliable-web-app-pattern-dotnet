@@ -1,4 +1,4 @@
-﻿namespace ForgeFusion.Web.Models.ConcertContext
+﻿namespace ForgeFusion.Web.Models.Entities.Ticketing
 {
     public class PagedResult<T> where T : new()
     {
